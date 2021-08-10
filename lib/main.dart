@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/about.dart';
 import 'package:flutter_portfolio/constants/styles.dart';
+import 'package:flutter_portfolio/constants/widgets.dart';
+import 'package:flutter_portfolio/skills.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,15 +18,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           // primarySwatch: Colors.blue,
           ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
+  MyHomePage({
+    Key? key,
+  }) : super(key: key);
 
-  final String title;
+  // final String title;
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -35,33 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         // extendBodyBehindAppBar: true,
         backgroundColor: Colors.blueGrey,
-        appBar: AppBar(
-          // foregroundColor: Colors.transparent,
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          actions: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0),
-              child: Text('Home'),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0),
-              child: Text('About'),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0),
-              child: Text('Education'),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0),
-              child: Text('Experience'),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(8.0, 16.0, 8.0, 0),
-              child: Text('Skills'),
-            ),
-          ],
-        ),
+        appBar: appBar(context),
         body: Column(
           children: [
             Expanded(
@@ -137,22 +116,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
-            Container(
-              padding: EdgeInsets.all(8.0),
-              width: double.infinity,
-              child: Column(
-                children: [
-                  Text(
-                    'About Me',
-                    style: TextStyle(
-                        fontSize: MediaQuery.of(context).size.width * 0.02,
-                        fontFamily: 'Roboto',
-                        fontWeight: FontWeight.w600),
-                  ),
-                  Text(KaboutMe)
-                ],
-              ),
-            )
           ],
         ));
   }
