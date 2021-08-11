@@ -48,19 +48,19 @@ class _EduPageState extends State<EduPage> {
                           margin: EdgeInsets.all(68.0),
                           child: Column(
                             children: [
-                              Container(
-                                  decoration: BoxDecoration(
-                                      border:
-                                          Border.all(color: Colors.blueAccent),
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(
-                                              100.0) //                 <--- border radius here
-                                          )),
-                                  child: Icon(
-                                    Icons.person,
-                                    size: MediaQuery.of(context).size.width *
-                                        0.10,
-                                  )),
+                              // Container(
+                              //     decoration: BoxDecoration(
+                              //         border:
+                              //             Border.all(color: Colors.blueAccent),
+                              //         borderRadius: BorderRadius.all(
+                              //             Radius.circular(
+                              //                 100.0) //                 <--- border radius here
+                              //             )),
+                              //     child: Icon(
+                              //       Icons.person,
+                              //       size: MediaQuery.of(context).size.width *
+                              //           0.10,
+                              //     )),
                               Text(
                                 'University of South Africa',
                                 style: ktextStyle(context, 0.022),
@@ -95,19 +95,19 @@ class _EduPageState extends State<EduPage> {
                           margin: EdgeInsets.all(68.0),
                           child: Column(
                             children: [
-                              Container(
-                                  decoration: BoxDecoration(
-                                      border:
-                                          Border.all(color: Colors.blueAccent),
-                                      borderRadius: BorderRadius.all(
-                                          Radius.circular(
-                                              100.0) //                 <--- border radius here
-                                          )),
-                                  child: Icon(
-                                    Icons.person,
-                                    size: MediaQuery.of(context).size.width *
-                                        0.10,
-                                  )),
+                              // Container(
+                              //     decoration: BoxDecoration(
+                              //         border:
+                              //             Border.all(color: Colors.blueAccent),
+                              //         borderRadius: BorderRadius.all(
+                              //             Radius.circular(
+                              //                 100.0) //                 <--- border radius here
+                              //             )),
+                              //     child: Icon(
+                              //       Icons.person,
+                              //       size: MediaQuery.of(context).size.width *
+                              //           0.10,
+                              //     )),
                               Text(
                                 'Pretoria Secondary',
                                 style: ktextStyle(context, 0.022),
