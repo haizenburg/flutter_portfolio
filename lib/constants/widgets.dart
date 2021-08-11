@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/about.dart';
+import 'package:flutter_portfolio/education.dart';
 import 'package:flutter_portfolio/main.dart';
+import 'package:flutter_portfolio/nothing.dart';
 import 'package:flutter_portfolio/skills.dart';
 
 AppBar appBar(context) {
@@ -42,7 +44,7 @@ AppBar appBar(context) {
           child: GestureDetector(
               onTap: () {
                 Navigator.of(context).pushAndRemoveUntil(
-                    MaterialPageRoute(builder: (context) => AboutPage()),
+                    MaterialPageRoute(builder: (context) => EduPage()),
                     (route) => false);
               },
               child: Text('EDUCATION')),
@@ -55,7 +57,7 @@ AppBar appBar(context) {
           child: GestureDetector(
               onTap: () {
                 Navigator.of(context).pushAndRemoveUntil(
-                    MaterialPageRoute(builder: (context) => AboutPage()),
+                    MaterialPageRoute(builder: (context) => NothingPage()),
                     (route) => false);
               },
               child: Text('EXPERIENCE')),

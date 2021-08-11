@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/about.dart';
 import 'package:flutter_portfolio/constants/styles.dart';
 import 'package:flutter_portfolio/constants/widgets.dart';
+import 'package:flutter_portfolio/education.dart';
 import 'package:flutter_portfolio/skills.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Tshepang Portfolio',
       theme: ThemeData(
           // primarySwatch: Colors.blue,
           ),
@@ -61,6 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Tshepang moima'.toUpperCase(),
                             style: TextStyle(
+                                color: Colors.white,
                                 fontSize:
                                     MediaQuery.of(context).size.width * 0.04,
                                 fontFamily: 'Roboto',
@@ -77,6 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   child: Text(
                                     'Software Engineer /',
                                     style: TextStyle(
+                                        color: Colors.white,
                                         fontSize:
                                             MediaQuery.of(context).size.width *
                                                 0.02,
@@ -90,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 child: Text(
                                   'Front-end web developer /',
                                   style: TextStyle(
+                                      color: Colors.white,
                                       fontSize:
                                           MediaQuery.of(context).size.width *
                                               0.02,
@@ -101,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding: EdgeInsets.fromLTRB(0, 8.0, 8.0, 8.0),
                                 child: Text('Final year CS Student',
                                     style: TextStyle(
+                                        color: Colors.white,
                                         fontSize:
                                             MediaQuery.of(context).size.width *
                                                 0.02,

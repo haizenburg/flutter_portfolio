@@ -9,9 +9,10 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.blueGrey,
       appBar: appBar(context),
       body: Container(
+        color: Colors.white,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
