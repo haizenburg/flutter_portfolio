@@ -63,7 +63,7 @@ class _EduPageState extends State<EduPage> {
                                   )),
                               Text(
                                 'University of South Africa',
-                                style: ktextStyle(context, 0.03),
+                                style: ktextStyle(context, 0.022),
                               ),
                               Text(
                                 'South africa',
@@ -74,7 +74,7 @@ class _EduPageState extends State<EduPage> {
                               ),
                               Text(
                                 'Bachelor of Science (Undergrad)',
-                                style: ktextStyle(context, 0.03),
+                                style: ktextStyle(context, 0.022),
                               ),
                               Text(
                                 'Computer Science',
@@ -110,7 +110,7 @@ class _EduPageState extends State<EduPage> {
                                   )),
                               Text(
                                 'Pretoria Secondary',
-                                style: ktextStyle(context, 0.03),
+                                style: ktextStyle(context, 0.022),
                               ),
                               Text(
                                 'South africa, Gauteng',
@@ -121,7 +121,7 @@ class _EduPageState extends State<EduPage> {
                               ),
                               Text(
                                 'High School',
-                                style: ktextStyle(context, 0.03),
+                                style: ktextStyle(context, 0.022),
                               ),
                               Text(
                                 'Economics',
