@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             Expanded(
                                 child: FadeIn(
                               child: Text(
-                                "Proggramming isnt about what you know; its about what you can figure out - Chris Pine",
+                                "Programming isnt about what you know; its about what you can figure out - Chris Pine",
                                 style: TextStyle(
                                     color: Colors.grey[400],
                                     fontSize: 32,
