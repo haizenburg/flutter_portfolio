@@ -3,6 +3,7 @@ import 'package:flutter_portfolio/about.dart';
 import 'package:flutter_portfolio/constants/styles.dart';
 import 'package:flutter_portfolio/constants/widgets.dart';
 import 'package:flutter_portfolio/education.dart';
+import 'package:flutter_portfolio/experience.dart';
 import 'package:flutter_portfolio/skills.dart';
 import 'package:flutter_fadein/flutter_fadein.dart';
 
